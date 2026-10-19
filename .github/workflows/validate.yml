@@ -1,0 +1,31 @@
+name: Validate architecture and core
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  core:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check architecture
+        shell: pwsh
+        run: ./scripts/检查工程结构.ps1
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            10.0.x
+            8.0.x
+      - name: Restore core
+        run: dotnet restore Game.Core.slnx
+      - name: Build core
+        run: dotnet build Game.Core.slnx --no-restore --configuration Release
+      - name: Test domain
+        run: dotnet test tests/Game.Domain.Tests/Game.Domain.Tests.csproj --no-build --configuration Release
+      - name: Validate bootstrap content
+        run: dotnet run --project tools/ContentPipeline/ContentPipeline.csproj --no-build --configuration Release -- game/data/bootstrap.json

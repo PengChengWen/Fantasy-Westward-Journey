@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/game/">
+    <Project Path="game/Game.Client.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Game.Domain/Game.Domain.csproj" />
+    <Project Path="src/Game.Application/Game.Application.csproj" />
+    <Project Path="src/Game.Infrastructure/Game.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/ContentPipeline/ContentPipeline.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Game.Domain.Tests/Game.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

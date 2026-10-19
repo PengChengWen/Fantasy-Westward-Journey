@@ -1,0 +1,21 @@
+; Open with Godot 4.7.2 .NET, not the standard non-.NET editor.
+config_version=5
+
+[application]
+config/name="照夜山海"
+run/main_scene="res://scenes/bootstrap/Boot.tscn"
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[dotnet]
+project/assembly_name="Game.Client"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

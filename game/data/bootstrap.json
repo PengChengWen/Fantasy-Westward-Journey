@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "party": {
+    "maxCharacters": 5,
+    "maxPetsPerCharacter": 1
+  },
+  "sects": [
+    { "id": "sect_zhiheng", "name": "执衡院" },
+    { "id": "sect_baihai", "name": "百骸谷" },
+    { "id": "sect_tingchao", "name": "听潮阁" },
+    { "id": "sect_jiangluo", "name": "绛罗坊" },
+    { "id": "sect_huiqi", "name": "绘契司" },
+    { "id": "sect_jishi", "name": "济世院" },
+    { "id": "sect_zhaodeng", "name": "照灯坊" }
+  ]
+}

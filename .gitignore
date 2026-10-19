@@ -1,0 +1,24 @@
+# Local editors
+.idea/
+.vs/
+*.user
+*.suo
+
+# Godot generated imports and .NET artifacts
+.godot/
+**/bin/
+**/obj/
+**/TestResults/
+
+# Local tooling, builds and play data
+.tools/
+build/
+artifacts/
+*.tmp
+*.log
+steam_appid.txt
+
+# Local credentials
+.env
+.env.*
+!.env.example
