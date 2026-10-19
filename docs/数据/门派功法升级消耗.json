@@ -1,0 +1,1464 @@
+{
+  "schemaVersion": 1,
+  "curveId": "sect_cultivation_v1",
+  "maxLevel": 180,
+  "tracksPerCharacter": 7,
+  "fullPartyCharacters": 5,
+  "experienceCurrency": "training_exp",
+  "moneyCurrency": "coin",
+  "formula": {
+    "experience": "10 * ceil((10000 + 1000*n + 200*n*n + n*n*n) / 1000)",
+    "coins": "10 * ceil(35 * experience / 1000)",
+    "levelMeans": "target level; n=1 is 0->1"
+  },
+  "totals": {
+    "oneTrackExperience": 6755810,
+    "oneTrackCoins": 2365360,
+    "oneCharacterExperience": 47290670,
+    "oneCharacterCoins": 16557520,
+    "fiveCharactersExperience": 236453350,
+    "fiveCharactersCoins": 82787600
+  },
+  "levels": [
+    {
+      "fromLevel": 0,
+      "toLevel": 1,
+      "experience": 120,
+      "coins": 50,
+      "cumulativeExperience": 120,
+      "cumulativeCoins": 50
+    },
+    {
+      "fromLevel": 1,
+      "toLevel": 2,
+      "experience": 130,
+      "coins": 50,
+      "cumulativeExperience": 250,
+      "cumulativeCoins": 100
+    },
+    {
+      "fromLevel": 2,
+      "toLevel": 3,
+      "experience": 150,
+      "coins": 60,
+      "cumulativeExperience": 400,
+      "cumulativeCoins": 160
+    },
+    {
+      "fromLevel": 3,
+      "toLevel": 4,
+      "experience": 180,
+      "coins": 70,
+      "cumulativeExperience": 580,
+      "cumulativeCoins": 230
+    },
+    {
+      "fromLevel": 4,
+      "toLevel": 5,
+      "experience": 210,
+      "coins": 80,
+      "cumulativeExperience": 790,
+      "cumulativeCoins": 310
+    },
+    {
+      "fromLevel": 5,
+      "toLevel": 6,
+      "experience": 240,
+      "coins": 90,
+      "cumulativeExperience": 1030,
+      "cumulativeCoins": 400
+    },
+    {
+      "fromLevel": 6,
+      "toLevel": 7,
+      "experience": 280,
+      "coins": 100,
+      "cumulativeExperience": 1310,
+      "cumulativeCoins": 500
+    },
+    {
+      "fromLevel": 7,
+      "toLevel": 8,
+      "experience": 320,
+      "coins": 120,
+      "cumulativeExperience": 1630,
+      "cumulativeCoins": 620
+    },
+    {
+      "fromLevel": 8,
+      "toLevel": 9,
+      "experience": 360,
+      "coins": 130,
+      "cumulativeExperience": 1990,
+      "cumulativeCoins": 750
+    },
+    {
+      "fromLevel": 9,
+      "toLevel": 10,
+      "experience": 410,
+      "coins": 150,
+      "cumulativeExperience": 2400,
+      "cumulativeCoins": 900
+    },
+    {
+      "fromLevel": 10,
+      "toLevel": 11,
+      "experience": 470,
+      "coins": 170,
+      "cumulativeExperience": 2870,
+      "cumulativeCoins": 1070
+    },
+    {
+      "fromLevel": 11,
+      "toLevel": 12,
+      "experience": 530,
+      "coins": 190,
+      "cumulativeExperience": 3400,
+      "cumulativeCoins": 1260
+    },
+    {
+      "fromLevel": 12,
+      "toLevel": 13,
+      "experience": 590,
+      "coins": 210,
+      "cumulativeExperience": 3990,
+      "cumulativeCoins": 1470
+    },
+    {
+      "fromLevel": 13,
+      "toLevel": 14,
+      "experience": 660,
+      "coins": 240,
+      "cumulativeExperience": 4650,
+      "cumulativeCoins": 1710
+    },
+    {
+      "fromLevel": 14,
+      "toLevel": 15,
+      "experience": 740,
+      "coins": 260,
+      "cumulativeExperience": 5390,
+      "cumulativeCoins": 1970
+    },
+    {
+      "fromLevel": 15,
+      "toLevel": 16,
+      "experience": 820,
+      "coins": 290,
+      "cumulativeExperience": 6210,
+      "cumulativeCoins": 2260
+    },
+    {
+      "fromLevel": 16,
+      "toLevel": 17,
+      "experience": 900,
+      "coins": 320,
+      "cumulativeExperience": 7110,
+      "cumulativeCoins": 2580
+    },
+    {
+      "fromLevel": 17,
+      "toLevel": 18,
+      "experience": 990,
+      "coins": 350,
+      "cumulativeExperience": 8100,
+      "cumulativeCoins": 2930
+    },
+    {
+      "fromLevel": 18,
+      "toLevel": 19,
+      "experience": 1090,
+      "coins": 390,
+      "cumulativeExperience": 9190,
+      "cumulativeCoins": 3320
+    },
+    {
+      "fromLevel": 19,
+      "toLevel": 20,
+      "experience": 1180,
+      "coins": 420,
+      "cumulativeExperience": 10370,
+      "cumulativeCoins": 3740
+    },
+    {
+      "fromLevel": 20,
+      "toLevel": 21,
+      "experience": 1290,
+      "coins": 460,
+      "cumulativeExperience": 11660,
+      "cumulativeCoins": 4200
+    },
+    {
+      "fromLevel": 21,
+      "toLevel": 22,
+      "experience": 1400,
+      "coins": 490,
+      "cumulativeExperience": 13060,
+      "cumulativeCoins": 4690
+    },
+    {
+      "fromLevel": 22,
+      "toLevel": 23,
+      "experience": 1510,
+      "coins": 530,
+      "cumulativeExperience": 14570,
+      "cumulativeCoins": 5220
+    },
+    {
+      "fromLevel": 23,
+      "toLevel": 24,
+      "experience": 1640,
+      "coins": 580,
+      "cumulativeExperience": 16210,
+      "cumulativeCoins": 5800
+    },
+    {
+      "fromLevel": 24,
+      "toLevel": 25,
+      "experience": 1760,
+      "coins": 620,
+      "cumulativeExperience": 17970,
+      "cumulativeCoins": 6420
+    },
+    {
+      "fromLevel": 25,
+      "toLevel": 26,
+      "experience": 1890,
+      "coins": 670,
+      "cumulativeExperience": 19860,
+      "cumulativeCoins": 7090
+    },
+    {
+      "fromLevel": 26,
+      "toLevel": 27,
+      "experience": 2030,
+      "coins": 720,
+      "cumulativeExperience": 21890,
+      "cumulativeCoins": 7810
+    },
+    {
+      "fromLevel": 27,
+      "toLevel": 28,
+      "experience": 2170,
+      "coins": 760,
+      "cumulativeExperience": 24060,
+      "cumulativeCoins": 8570
+    },
+    {
+      "fromLevel": 28,
+      "toLevel": 29,
+      "experience": 2320,
+      "coins": 820,
+      "cumulativeExperience": 26380,
+      "cumulativeCoins": 9390
+    },
+    {
+      "fromLevel": 29,
+      "toLevel": 30,
+      "experience": 2470,
+      "coins": 870,
+      "cumulativeExperience": 28850,
+      "cumulativeCoins": 10260
+    },
+    {
+      "fromLevel": 30,
+      "toLevel": 31,
+      "experience": 2630,
+      "coins": 930,
+      "cumulativeExperience": 31480,
+      "cumulativeCoins": 11190
+    },
+    {
+      "fromLevel": 31,
+      "toLevel": 32,
+      "experience": 2800,
+      "coins": 980,
+      "cumulativeExperience": 34280,
+      "cumulativeCoins": 12170
+    },
+    {
+      "fromLevel": 32,
+      "toLevel": 33,
+      "experience": 2970,
+      "coins": 1040,
+      "cumulativeExperience": 37250,
+      "cumulativeCoins": 13210
+    },
+    {
+      "fromLevel": 33,
+      "toLevel": 34,
+      "experience": 3150,
+      "coins": 1110,
+      "cumulativeExperience": 40400,
+      "cumulativeCoins": 14320
+    },
+    {
+      "fromLevel": 34,
+      "toLevel": 35,
+      "experience": 3330,
+      "coins": 1170,
+      "cumulativeExperience": 43730,
+      "cumulativeCoins": 15490
+    },
+    {
+      "fromLevel": 35,
+      "toLevel": 36,
+      "experience": 3520,
+      "coins": 1240,
+      "cumulativeExperience": 47250,
+      "cumulativeCoins": 16730
+    },
+    {
+      "fromLevel": 36,
+      "toLevel": 37,
+      "experience": 3720,
+      "coins": 1310,
+      "cumulativeExperience": 50970,
+      "cumulativeCoins": 18040
+    },
+    {
+      "fromLevel": 37,
+      "toLevel": 38,
+      "experience": 3920,
+      "coins": 1380,
+      "cumulativeExperience": 54890,
+      "cumulativeCoins": 19420
+    },
+    {
+      "fromLevel": 38,
+      "toLevel": 39,
+      "experience": 4130,
+      "coins": 1450,
+      "cumulativeExperience": 59020,
+      "cumulativeCoins": 20870
+    },
+    {
+      "fromLevel": 39,
+      "toLevel": 40,
+      "experience": 4340,
+      "coins": 1520,
+      "cumulativeExperience": 63360,
+      "cumulativeCoins": 22390
+    },
+    {
+      "fromLevel": 40,
+      "toLevel": 41,
+      "experience": 4570,
+      "coins": 1600,
+      "cumulativeExperience": 67930,
+      "cumulativeCoins": 23990
+    },
+    {
+      "fromLevel": 41,
+      "toLevel": 42,
+      "experience": 4790,
+      "coins": 1680,
+      "cumulativeExperience": 72720,
+      "cumulativeCoins": 25670
+    },
+    {
+      "fromLevel": 42,
+      "toLevel": 43,
+      "experience": 5030,
+      "coins": 1770,
+      "cumulativeExperience": 77750,
+      "cumulativeCoins": 27440
+    },
+    {
+      "fromLevel": 43,
+      "toLevel": 44,
+      "experience": 5270,
+      "coins": 1850,
+      "cumulativeExperience": 83020,
+      "cumulativeCoins": 29290
+    },
+    {
+      "fromLevel": 44,
+      "toLevel": 45,
+      "experience": 5520,
+      "coins": 1940,
+      "cumulativeExperience": 88540,
+      "cumulativeCoins": 31230
+    },
+    {
+      "fromLevel": 45,
+      "toLevel": 46,
+      "experience": 5770,
+      "coins": 2020,
+      "cumulativeExperience": 94310,
+      "cumulativeCoins": 33250
+    },
+    {
+      "fromLevel": 46,
+      "toLevel": 47,
+      "experience": 6030,
+      "coins": 2120,
+      "cumulativeExperience": 100340,
+      "cumulativeCoins": 35370
+    },
+    {
+      "fromLevel": 47,
+      "toLevel": 48,
+      "experience": 6300,
+      "coins": 2210,
+      "cumulativeExperience": 106640,
+      "cumulativeCoins": 37580
+    },
+    {
+      "fromLevel": 48,
+      "toLevel": 49,
+      "experience": 6570,
+      "coins": 2300,
+      "cumulativeExperience": 113210,
+      "cumulativeCoins": 39880
+    },
+    {
+      "fromLevel": 49,
+      "toLevel": 50,
+      "experience": 6850,
+      "coins": 2400,
+      "cumulativeExperience": 120060,
+      "cumulativeCoins": 42280
+    },
+    {
+      "fromLevel": 50,
+      "toLevel": 51,
+      "experience": 7140,
+      "coins": 2500,
+      "cumulativeExperience": 127200,
+      "cumulativeCoins": 44780
+    },
+    {
+      "fromLevel": 51,
+      "toLevel": 52,
+      "experience": 7440,
+      "coins": 2610,
+      "cumulativeExperience": 134640,
+      "cumulativeCoins": 47390
+    },
+    {
+      "fromLevel": 52,
+      "toLevel": 53,
+      "experience": 7740,
+      "coins": 2710,
+      "cumulativeExperience": 142380,
+      "cumulativeCoins": 50100
+    },
+    {
+      "fromLevel": 53,
+      "toLevel": 54,
+      "experience": 8050,
+      "coins": 2820,
+      "cumulativeExperience": 150430,
+      "cumulativeCoins": 52920
+    },
+    {
+      "fromLevel": 54,
+      "toLevel": 55,
+      "experience": 8370,
+      "coins": 2930,
+      "cumulativeExperience": 158800,
+      "cumulativeCoins": 55850
+    },
+    {
+      "fromLevel": 55,
+      "toLevel": 56,
+      "experience": 8690,
+      "coins": 3050,
+      "cumulativeExperience": 167490,
+      "cumulativeCoins": 58900
+    },
+    {
+      "fromLevel": 56,
+      "toLevel": 57,
+      "experience": 9020,
+      "coins": 3160,
+      "cumulativeExperience": 176510,
+      "cumulativeCoins": 62060
+    },
+    {
+      "fromLevel": 57,
+      "toLevel": 58,
+      "experience": 9360,
+      "coins": 3280,
+      "cumulativeExperience": 185870,
+      "cumulativeCoins": 65340
+    },
+    {
+      "fromLevel": 58,
+      "toLevel": 59,
+      "experience": 9710,
+      "coins": 3400,
+      "cumulativeExperience": 195580,
+      "cumulativeCoins": 68740
+    },
+    {
+      "fromLevel": 59,
+      "toLevel": 60,
+      "experience": 10060,
+      "coins": 3530,
+      "cumulativeExperience": 205640,
+      "cumulativeCoins": 72270
+    },
+    {
+      "fromLevel": 60,
+      "toLevel": 61,
+      "experience": 10430,
+      "coins": 3660,
+      "cumulativeExperience": 216070,
+      "cumulativeCoins": 75930
+    },
+    {
+      "fromLevel": 61,
+      "toLevel": 62,
+      "experience": 10800,
+      "coins": 3780,
+      "cumulativeExperience": 226870,
+      "cumulativeCoins": 79710
+    },
+    {
+      "fromLevel": 62,
+      "toLevel": 63,
+      "experience": 11170,
+      "coins": 3910,
+      "cumulativeExperience": 238040,
+      "cumulativeCoins": 83620
+    },
+    {
+      "fromLevel": 63,
+      "toLevel": 64,
+      "experience": 11560,
+      "coins": 4050,
+      "cumulativeExperience": 249600,
+      "cumulativeCoins": 87670
+    },
+    {
+      "fromLevel": 64,
+      "toLevel": 65,
+      "experience": 11950,
+      "coins": 4190,
+      "cumulativeExperience": 261550,
+      "cumulativeCoins": 91860
+    },
+    {
+      "fromLevel": 65,
+      "toLevel": 66,
+      "experience": 12350,
+      "coins": 4330,
+      "cumulativeExperience": 273900,
+      "cumulativeCoins": 96190
+    },
+    {
+      "fromLevel": 66,
+      "toLevel": 67,
+      "experience": 12760,
+      "coins": 4470,
+      "cumulativeExperience": 286660,
+      "cumulativeCoins": 100660
+    },
+    {
+      "fromLevel": 67,
+      "toLevel": 68,
+      "experience": 13180,
+      "coins": 4620,
+      "cumulativeExperience": 299840,
+      "cumulativeCoins": 105280
+    },
+    {
+      "fromLevel": 68,
+      "toLevel": 69,
+      "experience": 13600,
+      "coins": 4760,
+      "cumulativeExperience": 313440,
+      "cumulativeCoins": 110040
+    },
+    {
+      "fromLevel": 69,
+      "toLevel": 70,
+      "experience": 14030,
+      "coins": 4920,
+      "cumulativeExperience": 327470,
+      "cumulativeCoins": 114960
+    },
+    {
+      "fromLevel": 70,
+      "toLevel": 71,
+      "experience": 14480,
+      "coins": 5070,
+      "cumulativeExperience": 341950,
+      "cumulativeCoins": 120030
+    },
+    {
+      "fromLevel": 71,
+      "toLevel": 72,
+      "experience": 14930,
+      "coins": 5230,
+      "cumulativeExperience": 356880,
+      "cumulativeCoins": 125260
+    },
+    {
+      "fromLevel": 72,
+      "toLevel": 73,
+      "experience": 15380,
+      "coins": 5390,
+      "cumulativeExperience": 372260,
+      "cumulativeCoins": 130650
+    },
+    {
+      "fromLevel": 73,
+      "toLevel": 74,
+      "experience": 15850,
+      "coins": 5550,
+      "cumulativeExperience": 388110,
+      "cumulativeCoins": 136200
+    },
+    {
+      "fromLevel": 74,
+      "toLevel": 75,
+      "experience": 16320,
+      "coins": 5720,
+      "cumulativeExperience": 404430,
+      "cumulativeCoins": 141920
+    },
+    {
+      "fromLevel": 75,
+      "toLevel": 76,
+      "experience": 16810,
+      "coins": 5890,
+      "cumulativeExperience": 421240,
+      "cumulativeCoins": 147810
+    },
+    {
+      "fromLevel": 76,
+      "toLevel": 77,
+      "experience": 17300,
+      "coins": 6060,
+      "cumulativeExperience": 438540,
+      "cumulativeCoins": 153870
+    },
+    {
+      "fromLevel": 77,
+      "toLevel": 78,
+      "experience": 17800,
+      "coins": 6230,
+      "cumulativeExperience": 456340,
+      "cumulativeCoins": 160100
+    },
+    {
+      "fromLevel": 78,
+      "toLevel": 79,
+      "experience": 18310,
+      "coins": 6410,
+      "cumulativeExperience": 474650,
+      "cumulativeCoins": 166510
+    },
+    {
+      "fromLevel": 79,
+      "toLevel": 80,
+      "experience": 18820,
+      "coins": 6590,
+      "cumulativeExperience": 493470,
+      "cumulativeCoins": 173100
+    },
+    {
+      "fromLevel": 80,
+      "toLevel": 81,
+      "experience": 19350,
+      "coins": 6780,
+      "cumulativeExperience": 512820,
+      "cumulativeCoins": 179880
+    },
+    {
+      "fromLevel": 81,
+      "toLevel": 82,
+      "experience": 19890,
+      "coins": 6970,
+      "cumulativeExperience": 532710,
+      "cumulativeCoins": 186850
+    },
+    {
+      "fromLevel": 82,
+      "toLevel": 83,
+      "experience": 20430,
+      "coins": 7160,
+      "cumulativeExperience": 553140,
+      "cumulativeCoins": 194010
+    },
+    {
+      "fromLevel": 83,
+      "toLevel": 84,
+      "experience": 20980,
+      "coins": 7350,
+      "cumulativeExperience": 574120,
+      "cumulativeCoins": 201360
+    },
+    {
+      "fromLevel": 84,
+      "toLevel": 85,
+      "experience": 21550,
+      "coins": 7550,
+      "cumulativeExperience": 595670,
+      "cumulativeCoins": 208910
+    },
+    {
+      "fromLevel": 85,
+      "toLevel": 86,
+      "experience": 22120,
+      "coins": 7750,
+      "cumulativeExperience": 617790,
+      "cumulativeCoins": 216660
+    },
+    {
+      "fromLevel": 86,
+      "toLevel": 87,
+      "experience": 22700,
+      "coins": 7950,
+      "cumulativeExperience": 640490,
+      "cumulativeCoins": 224610
+    },
+    {
+      "fromLevel": 87,
+      "toLevel": 88,
+      "experience": 23290,
+      "coins": 8160,
+      "cumulativeExperience": 663780,
+      "cumulativeCoins": 232770
+    },
+    {
+      "fromLevel": 88,
+      "toLevel": 89,
+      "experience": 23890,
+      "coins": 8370,
+      "cumulativeExperience": 687670,
+      "cumulativeCoins": 241140
+    },
+    {
+      "fromLevel": 89,
+      "toLevel": 90,
+      "experience": 24490,
+      "coins": 8580,
+      "cumulativeExperience": 712160,
+      "cumulativeCoins": 249720
+    },
+    {
+      "fromLevel": 90,
+      "toLevel": 91,
+      "experience": 25110,
+      "coins": 8790,
+      "cumulativeExperience": 737270,
+      "cumulativeCoins": 258510
+    },
+    {
+      "fromLevel": 91,
+      "toLevel": 92,
+      "experience": 25740,
+      "coins": 9010,
+      "cumulativeExperience": 763010,
+      "cumulativeCoins": 267520
+    },
+    {
+      "fromLevel": 92,
+      "toLevel": 93,
+      "experience": 26380,
+      "coins": 9240,
+      "cumulativeExperience": 789390,
+      "cumulativeCoins": 276760
+    },
+    {
+      "fromLevel": 93,
+      "toLevel": 94,
+      "experience": 27020,
+      "coins": 9460,
+      "cumulativeExperience": 816410,
+      "cumulativeCoins": 286220
+    },
+    {
+      "fromLevel": 94,
+      "toLevel": 95,
+      "experience": 27680,
+      "coins": 9690,
+      "cumulativeExperience": 844090,
+      "cumulativeCoins": 295910
+    },
+    {
+      "fromLevel": 95,
+      "toLevel": 96,
+      "experience": 28340,
+      "coins": 9920,
+      "cumulativeExperience": 872430,
+      "cumulativeCoins": 305830
+    },
+    {
+      "fromLevel": 96,
+      "toLevel": 97,
+      "experience": 29020,
+      "coins": 10160,
+      "cumulativeExperience": 901450,
+      "cumulativeCoins": 315990
+    },
+    {
+      "fromLevel": 97,
+      "toLevel": 98,
+      "experience": 29700,
+      "coins": 10400,
+      "cumulativeExperience": 931150,
+      "cumulativeCoins": 326390
+    },
+    {
+      "fromLevel": 98,
+      "toLevel": 99,
+      "experience": 30400,
+      "coins": 10640,
+      "cumulativeExperience": 961550,
+      "cumulativeCoins": 337030
+    },
+    {
+      "fromLevel": 99,
+      "toLevel": 100,
+      "experience": 31100,
+      "coins": 10890,
+      "cumulativeExperience": 992650,
+      "cumulativeCoins": 347920
+    },
+    {
+      "fromLevel": 100,
+      "toLevel": 101,
+      "experience": 31820,
+      "coins": 11140,
+      "cumulativeExperience": 1024470,
+      "cumulativeCoins": 359060
+    },
+    {
+      "fromLevel": 101,
+      "toLevel": 102,
+      "experience": 32550,
+      "coins": 11400,
+      "cumulativeExperience": 1057020,
+      "cumulativeCoins": 370460
+    },
+    {
+      "fromLevel": 102,
+      "toLevel": 103,
+      "experience": 33280,
+      "coins": 11650,
+      "cumulativeExperience": 1090300,
+      "cumulativeCoins": 382110
+    },
+    {
+      "fromLevel": 103,
+      "toLevel": 104,
+      "experience": 34030,
+      "coins": 11920,
+      "cumulativeExperience": 1124330,
+      "cumulativeCoins": 394030
+    },
+    {
+      "fromLevel": 104,
+      "toLevel": 105,
+      "experience": 34780,
+      "coins": 12180,
+      "cumulativeExperience": 1159110,
+      "cumulativeCoins": 406210
+    },
+    {
+      "fromLevel": 105,
+      "toLevel": 106,
+      "experience": 35550,
+      "coins": 12450,
+      "cumulativeExperience": 1194660,
+      "cumulativeCoins": 418660
+    },
+    {
+      "fromLevel": 106,
+      "toLevel": 107,
+      "experience": 36320,
+      "coins": 12720,
+      "cumulativeExperience": 1230980,
+      "cumulativeCoins": 431380
+    },
+    {
+      "fromLevel": 107,
+      "toLevel": 108,
+      "experience": 37110,
+      "coins": 12990,
+      "cumulativeExperience": 1268090,
+      "cumulativeCoins": 444370
+    },
+    {
+      "fromLevel": 108,
+      "toLevel": 109,
+      "experience": 37910,
+      "coins": 13270,
+      "cumulativeExperience": 1306000,
+      "cumulativeCoins": 457640
+    },
+    {
+      "fromLevel": 109,
+      "toLevel": 110,
+      "experience": 38710,
+      "coins": 13550,
+      "cumulativeExperience": 1344710,
+      "cumulativeCoins": 471190
+    },
+    {
+      "fromLevel": 110,
+      "toLevel": 111,
+      "experience": 39530,
+      "coins": 13840,
+      "cumulativeExperience": 1384240,
+      "cumulativeCoins": 485030
+    },
+    {
+      "fromLevel": 111,
+      "toLevel": 112,
+      "experience": 40360,
+      "coins": 14130,
+      "cumulativeExperience": 1424600,
+      "cumulativeCoins": 499160
+    },
+    {
+      "fromLevel": 112,
+      "toLevel": 113,
+      "experience": 41200,
+      "coins": 14420,
+      "cumulativeExperience": 1465800,
+      "cumulativeCoins": 513580
+    },
+    {
+      "fromLevel": 113,
+      "toLevel": 114,
+      "experience": 42050,
+      "coins": 14720,
+      "cumulativeExperience": 1507850,
+      "cumulativeCoins": 528300
+    },
+    {
+      "fromLevel": 114,
+      "toLevel": 115,
+      "experience": 42910,
+      "coins": 15020,
+      "cumulativeExperience": 1550760,
+      "cumulativeCoins": 543320
+    },
+    {
+      "fromLevel": 115,
+      "toLevel": 116,
+      "experience": 43790,
+      "coins": 15330,
+      "cumulativeExperience": 1594550,
+      "cumulativeCoins": 558650
+    },
+    {
+      "fromLevel": 116,
+      "toLevel": 117,
+      "experience": 44670,
+      "coins": 15640,
+      "cumulativeExperience": 1639220,
+      "cumulativeCoins": 574290
+    },
+    {
+      "fromLevel": 117,
+      "toLevel": 118,
+      "experience": 45560,
+      "coins": 15950,
+      "cumulativeExperience": 1684780,
+      "cumulativeCoins": 590240
+    },
+    {
+      "fromLevel": 118,
+      "toLevel": 119,
+      "experience": 46470,
+      "coins": 16270,
+      "cumulativeExperience": 1731250,
+      "cumulativeCoins": 606510
+    },
+    {
+      "fromLevel": 119,
+      "toLevel": 120,
+      "experience": 47380,
+      "coins": 16590,
+      "cumulativeExperience": 1778630,
+      "cumulativeCoins": 623100
+    },
+    {
+      "fromLevel": 120,
+      "toLevel": 121,
+      "experience": 48310,
+      "coins": 16910,
+      "cumulativeExperience": 1826940,
+      "cumulativeCoins": 640010
+    },
+    {
+      "fromLevel": 121,
+      "toLevel": 122,
+      "experience": 49250,
+      "coins": 17240,
+      "cumulativeExperience": 1876190,
+      "cumulativeCoins": 657250
+    },
+    {
+      "fromLevel": 122,
+      "toLevel": 123,
+      "experience": 50200,
+      "coins": 17570,
+      "cumulativeExperience": 1926390,
+      "cumulativeCoins": 674820
+    },
+    {
+      "fromLevel": 123,
+      "toLevel": 124,
+      "experience": 51160,
+      "coins": 17910,
+      "cumulativeExperience": 1977550,
+      "cumulativeCoins": 692730
+    },
+    {
+      "fromLevel": 124,
+      "toLevel": 125,
+      "experience": 52140,
+      "coins": 18250,
+      "cumulativeExperience": 2029690,
+      "cumulativeCoins": 710980
+    },
+    {
+      "fromLevel": 125,
+      "toLevel": 126,
+      "experience": 53120,
+      "coins": 18600,
+      "cumulativeExperience": 2082810,
+      "cumulativeCoins": 729580
+    },
+    {
+      "fromLevel": 126,
+      "toLevel": 127,
+      "experience": 54120,
+      "coins": 18950,
+      "cumulativeExperience": 2136930,
+      "cumulativeCoins": 748530
+    },
+    {
+      "fromLevel": 127,
+      "toLevel": 128,
+      "experience": 55120,
+      "coins": 19300,
+      "cumulativeExperience": 2192050,
+      "cumulativeCoins": 767830
+    },
+    {
+      "fromLevel": 128,
+      "toLevel": 129,
+      "experience": 56140,
+      "coins": 19650,
+      "cumulativeExperience": 2248190,
+      "cumulativeCoins": 787480
+    },
+    {
+      "fromLevel": 129,
+      "toLevel": 130,
+      "experience": 57170,
+      "coins": 20010,
+      "cumulativeExperience": 2305360,
+      "cumulativeCoins": 807490
+    },
+    {
+      "fromLevel": 130,
+      "toLevel": 131,
+      "experience": 58220,
+      "coins": 20380,
+      "cumulativeExperience": 2363580,
+      "cumulativeCoins": 827870
+    },
+    {
+      "fromLevel": 131,
+      "toLevel": 132,
+      "experience": 59270,
+      "coins": 20750,
+      "cumulativeExperience": 2422850,
+      "cumulativeCoins": 848620
+    },
+    {
+      "fromLevel": 132,
+      "toLevel": 133,
+      "experience": 60340,
+      "coins": 21120,
+      "cumulativeExperience": 2483190,
+      "cumulativeCoins": 869740
+    },
+    {
+      "fromLevel": 133,
+      "toLevel": 134,
+      "experience": 61420,
+      "coins": 21500,
+      "cumulativeExperience": 2544610,
+      "cumulativeCoins": 891240
+    },
+    {
+      "fromLevel": 134,
+      "toLevel": 135,
+      "experience": 62510,
+      "coins": 21880,
+      "cumulativeExperience": 2607120,
+      "cumulativeCoins": 913120
+    },
+    {
+      "fromLevel": 135,
+      "toLevel": 136,
+      "experience": 63610,
+      "coins": 22270,
+      "cumulativeExperience": 2670730,
+      "cumulativeCoins": 935390
+    },
+    {
+      "fromLevel": 136,
+      "toLevel": 137,
+      "experience": 64730,
+      "coins": 22660,
+      "cumulativeExperience": 2735460,
+      "cumulativeCoins": 958050
+    },
+    {
+      "fromLevel": 137,
+      "toLevel": 138,
+      "experience": 65850,
+      "coins": 23050,
+      "cumulativeExperience": 2801310,
+      "cumulativeCoins": 981100
+    },
+    {
+      "fromLevel": 138,
+      "toLevel": 139,
+      "experience": 66990,
+      "coins": 23450,
+      "cumulativeExperience": 2868300,
+      "cumulativeCoins": 1004550
+    },
+    {
+      "fromLevel": 139,
+      "toLevel": 140,
+      "experience": 68140,
+      "coins": 23850,
+      "cumulativeExperience": 2936440,
+      "cumulativeCoins": 1028400
+    },
+    {
+      "fromLevel": 140,
+      "toLevel": 141,
+      "experience": 69310,
+      "coins": 24260,
+      "cumulativeExperience": 3005750,
+      "cumulativeCoins": 1052660
+    },
+    {
+      "fromLevel": 141,
+      "toLevel": 142,
+      "experience": 70490,
+      "coins": 24680,
+      "cumulativeExperience": 3076240,
+      "cumulativeCoins": 1077340
+    },
+    {
+      "fromLevel": 142,
+      "toLevel": 143,
+      "experience": 71680,
+      "coins": 25090,
+      "cumulativeExperience": 3147920,
+      "cumulativeCoins": 1102430
+    },
+    {
+      "fromLevel": 143,
+      "toLevel": 144,
+      "experience": 72880,
+      "coins": 25510,
+      "cumulativeExperience": 3220800,
+      "cumulativeCoins": 1127940
+    },
+    {
+      "fromLevel": 144,
+      "toLevel": 145,
+      "experience": 74090,
+      "coins": 25940,
+      "cumulativeExperience": 3294890,
+      "cumulativeCoins": 1153880
+    },
+    {
+      "fromLevel": 145,
+      "toLevel": 146,
+      "experience": 75320,
+      "coins": 26370,
+      "cumulativeExperience": 3370210,
+      "cumulativeCoins": 1180250
+    },
+    {
+      "fromLevel": 146,
+      "toLevel": 147,
+      "experience": 76560,
+      "coins": 26800,
+      "cumulativeExperience": 3446770,
+      "cumulativeCoins": 1207050
+    },
+    {
+      "fromLevel": 147,
+      "toLevel": 148,
+      "experience": 77810,
+      "coins": 27240,
+      "cumulativeExperience": 3524580,
+      "cumulativeCoins": 1234290
+    },
+    {
+      "fromLevel": 148,
+      "toLevel": 149,
+      "experience": 79080,
+      "coins": 27680,
+      "cumulativeExperience": 3603660,
+      "cumulativeCoins": 1261970
+    },
+    {
+      "fromLevel": 149,
+      "toLevel": 150,
+      "experience": 80350,
+      "coins": 28130,
+      "cumulativeExperience": 3684010,
+      "cumulativeCoins": 1290100
+    },
+    {
+      "fromLevel": 150,
+      "toLevel": 151,
+      "experience": 81650,
+      "coins": 28580,
+      "cumulativeExperience": 3765660,
+      "cumulativeCoins": 1318680
+    },
+    {
+      "fromLevel": 151,
+      "toLevel": 152,
+      "experience": 82950,
+      "coins": 29040,
+      "cumulativeExperience": 3848610,
+      "cumulativeCoins": 1347720
+    },
+    {
+      "fromLevel": 152,
+      "toLevel": 153,
+      "experience": 84270,
+      "coins": 29500,
+      "cumulativeExperience": 3932880,
+      "cumulativeCoins": 1377220
+    },
+    {
+      "fromLevel": 153,
+      "toLevel": 154,
+      "experience": 85600,
+      "coins": 29960,
+      "cumulativeExperience": 4018480,
+      "cumulativeCoins": 1407180
+    },
+    {
+      "fromLevel": 154,
+      "toLevel": 155,
+      "experience": 86940,
+      "coins": 30430,
+      "cumulativeExperience": 4105420,
+      "cumulativeCoins": 1437610
+    },
+    {
+      "fromLevel": 155,
+      "toLevel": 156,
+      "experience": 88300,
+      "coins": 30910,
+      "cumulativeExperience": 4193720,
+      "cumulativeCoins": 1468520
+    },
+    {
+      "fromLevel": 156,
+      "toLevel": 157,
+      "experience": 89670,
+      "coins": 31390,
+      "cumulativeExperience": 4283390,
+      "cumulativeCoins": 1499910
+    },
+    {
+      "fromLevel": 157,
+      "toLevel": 158,
+      "experience": 91060,
+      "coins": 31880,
+      "cumulativeExperience": 4374450,
+      "cumulativeCoins": 1531790
+    },
+    {
+      "fromLevel": 158,
+      "toLevel": 159,
+      "experience": 92450,
+      "coins": 32360,
+      "cumulativeExperience": 4466900,
+      "cumulativeCoins": 1564150
+    },
+    {
+      "fromLevel": 159,
+      "toLevel": 160,
+      "experience": 93860,
+      "coins": 32860,
+      "cumulativeExperience": 4560760,
+      "cumulativeCoins": 1597010
+    },
+    {
+      "fromLevel": 160,
+      "toLevel": 161,
+      "experience": 95290,
+      "coins": 33360,
+      "cumulativeExperience": 4656050,
+      "cumulativeCoins": 1630370
+    },
+    {
+      "fromLevel": 161,
+      "toLevel": 162,
+      "experience": 96730,
+      "coins": 33860,
+      "cumulativeExperience": 4752780,
+      "cumulativeCoins": 1664230
+    },
+    {
+      "fromLevel": 162,
+      "toLevel": 163,
+      "experience": 98180,
+      "coins": 34370,
+      "cumulativeExperience": 4850960,
+      "cumulativeCoins": 1698600
+    },
+    {
+      "fromLevel": 163,
+      "toLevel": 164,
+      "experience": 99650,
+      "coins": 34880,
+      "cumulativeExperience": 4950610,
+      "cumulativeCoins": 1733480
+    },
+    {
+      "fromLevel": 164,
+      "toLevel": 165,
+      "experience": 101130,
+      "coins": 35400,
+      "cumulativeExperience": 5051740,
+      "cumulativeCoins": 1768880
+    },
+    {
+      "fromLevel": 165,
+      "toLevel": 166,
+      "experience": 102620,
+      "coins": 35920,
+      "cumulativeExperience": 5154360,
+      "cumulativeCoins": 1804800
+    },
+    {
+      "fromLevel": 166,
+      "toLevel": 167,
+      "experience": 104130,
+      "coins": 36450,
+      "cumulativeExperience": 5258490,
+      "cumulativeCoins": 1841250
+    },
+    {
+      "fromLevel": 167,
+      "toLevel": 168,
+      "experience": 105650,
+      "coins": 36980,
+      "cumulativeExperience": 5364140,
+      "cumulativeCoins": 1878230
+    },
+    {
+      "fromLevel": 168,
+      "toLevel": 169,
+      "experience": 107190,
+      "coins": 37520,
+      "cumulativeExperience": 5471330,
+      "cumulativeCoins": 1915750
+    },
+    {
+      "fromLevel": 169,
+      "toLevel": 170,
+      "experience": 108730,
+      "coins": 38060,
+      "cumulativeExperience": 5580060,
+      "cumulativeCoins": 1953810
+    },
+    {
+      "fromLevel": 170,
+      "toLevel": 171,
+      "experience": 110300,
+      "coins": 38610,
+      "cumulativeExperience": 5690360,
+      "cumulativeCoins": 1992420
+    },
+    {
+      "fromLevel": 171,
+      "toLevel": 172,
+      "experience": 111880,
+      "coins": 39160,
+      "cumulativeExperience": 5802240,
+      "cumulativeCoins": 2031580
+    },
+    {
+      "fromLevel": 172,
+      "toLevel": 173,
+      "experience": 113470,
+      "coins": 39720,
+      "cumulativeExperience": 5915710,
+      "cumulativeCoins": 2071300
+    },
+    {
+      "fromLevel": 173,
+      "toLevel": 174,
+      "experience": 115080,
+      "coins": 40280,
+      "cumulativeExperience": 6030790,
+      "cumulativeCoins": 2111580
+    },
+    {
+      "fromLevel": 174,
+      "toLevel": 175,
+      "experience": 116700,
+      "coins": 40850,
+      "cumulativeExperience": 6147490,
+      "cumulativeCoins": 2152430
+    },
+    {
+      "fromLevel": 175,
+      "toLevel": 176,
+      "experience": 118330,
+      "coins": 41420,
+      "cumulativeExperience": 6265820,
+      "cumulativeCoins": 2193850
+    },
+    {
+      "fromLevel": 176,
+      "toLevel": 177,
+      "experience": 119990,
+      "coins": 42000,
+      "cumulativeExperience": 6385810,
+      "cumulativeCoins": 2235850
+    },
+    {
+      "fromLevel": 177,
+      "toLevel": 178,
+      "experience": 121650,
+      "coins": 42580,
+      "cumulativeExperience": 6507460,
+      "cumulativeCoins": 2278430
+    },
+    {
+      "fromLevel": 178,
+      "toLevel": 179,
+      "experience": 123330,
+      "coins": 43170,
+      "cumulativeExperience": 6630790,
+      "cumulativeCoins": 2321600
+    },
+    {
+      "fromLevel": 179,
+      "toLevel": 180,
+      "experience": 125020,
+      "coins": 43760,
+      "cumulativeExperience": 6755810,
+      "cumulativeCoins": 2365360
+    }
+  ]
+}

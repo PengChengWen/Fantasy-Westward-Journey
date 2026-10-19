@@ -16,6 +16,9 @@ jobs:
       - name: Check architecture
         shell: pwsh
         run: ./scripts/检查工程结构.ps1
+      - name: Check cultivation cost tables
+        shell: pwsh
+        run: ./scripts/生成门派技能升级表.ps1 -Check
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: |
