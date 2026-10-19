@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "designVersion": "0.6",
+  "characterMaxLevel": 175,
+  "skillMaxLevel": 180,
+  "tracksPerCharacter": 6,
+  "party": {
+    "characters": 5,
+    "petsPerCharacter": 1
+  },
+  "startNode": "QH",
+  "nodes": [
+    {
+      "id": "QH",
+      "name": "青禾埠",
+      "recommendedLevel": "1—20",
+      "role": "起点、上游水工院与远程授业",
+      "region": "河源与民生"
+    },
+    {
+      "id": "LT",
+      "name": "芦汀原",
+      "recommendedLevel": "8—35",
+      "role": "洪泛平原、护运与草泽灵兽",
+      "region": "河源与民生"
+    },
+    {
+      "id": "ZN",
+      "name": "昭宁京",
+      "recommendedLevel": "20—70",
+      "role": "档案市场与工艺评鉴，非必经总枢纽",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "TC",
+      "name": "听潮湾",
+      "recommendedLevel": "10—40",
+      "role": "下游港湾、潮汐调查与捕捉教学",
+      "region": "河源与民生"
+    },
+    {
+      "id": "DJ",
+      "name": "断桅礁",
+      "recommendedLevel": "15—50",
+      "role": "沉船勘测与首个考古小遗迹",
+      "region": "河源与民生"
+    },
+    {
+      "id": "CY",
+      "name": "澄渊庭",
+      "recommendedLevel": "35—100",
+      "role": "地下蓄水庭、古契馆与水位选择",
+      "region": "河源与民生"
+    },
+    {
+      "id": "SH",
+      "name": "双河驿",
+      "recommendedLevel": "10—80",
+      "role": "水陆转运枢纽、执衡联防营与行会仓站",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "CL",
+      "name": "赤砾荒道",
+      "recommendedLevel": "45—105",
+      "role": "货运旱道、风蚀遗址与山口修复",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "WD",
+      "name": "望灯郊野",
+      "recommendedLevel": "30—85",
+      "role": "湿地观察、分支护林线",
+      "region": "河源与民生"
+    },
+    {
+      "id": "WC",
+      "name": "望灯村",
+      "recommendedLevel": "35—95",
+      "role": "湿地聚落、迁居与保育选择",
+      "region": "河源与民生"
+    },
+    {
+      "id": "LL",
+      "name": "琉岚港",
+      "recommendedLevel": "30—85",
+      "role": "沿岸贸易、造船与船运订单",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "QY",
+      "name": "青猿岭",
+      "recommendedLevel": "55—115",
+      "role": "内陆雾林、古木索道与生态调查",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "XS",
+      "name": "玄霜原",
+      "recommendedLevel": "75—140",
+      "role": "高原交通交汇、济世救援站与雪灾援助",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "MG",
+      "name": "眠骨窟",
+      "recommendedLevel": "65—125",
+      "role": "旧矿洞外围骨工集落、设施与矿道",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "QYAO",
+      "name": "栖焰巢",
+      "recommendedLevel": "100—155",
+      "role": "地热研究与冷却矿轨",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "FQ",
+      "name": "浮阙天台",
+      "recommendedLevel": "90—150",
+      "role": "山巅观象与风缆试验，不是天宫主城",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "YD",
+      "name": "夜渡城",
+      "recommendedLevel": "65—130",
+      "role": "低水位旧河港、照灯舟坊与记忆证词",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "HZ",
+      "name": "回烛深廊",
+      "recommendedLevel": "110—165",
+      "role": "灯舟旧库、证词冲突与终局陆路",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "JZ",
+      "name": "金照城",
+      "recommendedLevel": "40—110",
+      "role": "沙河贸易城、绛罗戏坊与公开赛会",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "SS",
+      "name": "碎星沙海",
+      "recommendedLevel": "80—145",
+      "role": "星砂遗址、考古许可与旧矿铁路",
+      "region": "工艺与商路"
+    },
+    {
+      "id": "SL",
+      "name": "沉雷峡",
+      "recommendedLevel": "125—170",
+      "role": "地磁风暴、跨区设施联动试炼",
+      "region": "余响与记忆"
+    },
+    {
+      "id": "GX",
+      "name": "归墟井",
+      "recommendedLevel": "125—170",
+      "role": "地下水源深探与终局水路",
+      "region": "河源与民生"
+    },
+    {
+      "id": "WX",
+      "name": "万象隙",
+      "recommendedLevel": "150—175",
+      "role": "三地契抉择汇流的终局与通关后挑战",
+      "region": "终局"
+    }
+  ],
+  "edges": [
+    {
+      "from": "QH",
+      "to": "TC",
+      "transport": "河道步行",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "QH",
+      "to": "SH",
+      "transport": "驿路",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "SH",
+      "to": "ZN",
+      "transport": "城际道路",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "SH",
+      "to": "LT",
+      "transport": "堤道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "LT",
+      "to": "WD",
+      "transport": "湿地小径",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "WD",
+      "to": "WC",
+      "transport": "村道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "SH",
+      "to": "CY",
+      "transport": "闸门廊道",
+      "condition": "sluice_restored",
+      "bidirectional": true
+    },
+    {
+      "from": "CY",
+      "to": "YD",
+      "transport": "低水位旧航道",
+      "condition": "old_channel_open",
+      "bidirectional": true
+    },
+    {
+      "from": "YD",
+      "to": "HZ",
+      "transport": "灯舟旧库入口",
+      "condition": "archive_access",
+      "bidirectional": true
+    },
+    {
+      "from": "TC",
+      "to": "DJ",
+      "transport": "近海渡船",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "TC",
+      "to": "LL",
+      "transport": "沿海客船",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "LL",
+      "to": "JZ",
+      "transport": "商船",
+      "condition": "trade_route_open",
+      "bidirectional": true
+    },
+    {
+      "from": "JZ",
+      "to": "CL",
+      "transport": "沙河驿道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "JZ",
+      "to": "SS",
+      "transport": "考古路线",
+      "condition": "survey_permit",
+      "bidirectional": true
+    },
+    {
+      "from": "SS",
+      "to": "MG",
+      "transport": "旧矿通道",
+      "condition": "mine_open",
+      "bidirectional": true
+    },
+    {
+      "from": "MG",
+      "to": "XS",
+      "transport": "高原矿道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "XS",
+      "to": "QYAO",
+      "transport": "地热坡道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "XS",
+      "to": "SL",
+      "transport": "峡口山路",
+      "condition": "storm_beacon",
+      "bidirectional": true
+    },
+    {
+      "from": "WD",
+      "to": "QY",
+      "transport": "内陆林道",
+      "condition": "",
+      "bidirectional": true
+    },
+    {
+      "from": "QY",
+      "to": "FQ",
+      "transport": "古木索道",
+      "condition": "canopy_lift",
+      "bidirectional": true
+    },
+    {
+      "from": "FQ",
+      "to": "SL",
+      "transport": "风缆",
+      "condition": "wind_cable",
+      "bidirectional": true
+    },
+    {
+      "from": "CY",
+      "to": "GX",
+      "transport": "深潜通道",
+      "condition": "deep_dive",
+      "bidirectional": true
+    },
+    {
+      "from": "GX",
+      "to": "WX",
+      "transport": "水源裂口",
+      "condition": "final_access",
+      "bidirectional": true
+    },
+    {
+      "from": "HZ",
+      "to": "WX",
+      "transport": "记忆裂口",
+      "condition": "final_access",
+      "bidirectional": true
+    },
+    {
+      "from": "CL",
+      "to": "XS",
+      "transport": "修复山口",
+      "condition": "mountain_pass",
+      "bidirectional": true
+    },
+    {
+      "from": "QYAO",
+      "to": "SS",
+      "transport": "冷却矿轨",
+      "condition": "cooled_rail",
+      "bidirectional": true
+    }
+  ],
+  "sects": [
+    {
+      "id": "sect_zhiheng",
+      "name": "执衡院",
+      "nodeId": "SH",
+      "facility": "联防营",
+      "anchor": [
+        0.72,
+        0.44
+      ],
+      "sceneSize": [
+        96,
+        72
+      ],
+      "entry": [
+        8,
+        48
+      ],
+      "teacher": "任玄戈",
+      "teacherPosition": [
+        64,
+        20
+      ],
+      "mechanic": "command_relay",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_baihai",
+      "name": "百骸谷",
+      "nodeId": "MG",
+      "facility": "骨工集落",
+      "anchor": [
+        0.26,
+        0.78
+      ],
+      "sceneSize": [
+        112,
+        80
+      ],
+      "entry": [
+        56,
+        74
+      ],
+      "teacher": "骨隐翁",
+      "teacherPosition": [
+        28,
+        24
+      ],
+      "mechanic": "breakable_facility",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_tingchao",
+      "name": "听潮阁",
+      "nodeId": "QH",
+      "facility": "上游水工院",
+      "anchor": [
+        0.28,
+        0.16
+      ],
+      "sceneSize": [
+        96,
+        64
+      ],
+      "entry": [
+        48,
+        58
+      ],
+      "teacher": "澜照",
+      "teacherPosition": [
+        30,
+        18
+      ],
+      "mechanic": "flow_route",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_jiangluo",
+      "name": "绛罗坊",
+      "nodeId": "JZ",
+      "facility": "流动戏坊",
+      "anchor": [
+        0.64,
+        0.56
+      ],
+      "sceneSize": [
+        96,
+        72
+      ],
+      "entry": [
+        12,
+        60
+      ],
+      "teacher": "叶绛衣",
+      "teacherPosition": [
+        60,
+        24
+      ],
+      "mechanic": "intel_decoy",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_huiqi",
+      "name": "绘契司",
+      "nodeId": "CY",
+      "facility": "古契馆",
+      "anchor": [
+        0.18,
+        0.38
+      ],
+      "sceneSize": [
+        80,
+        72
+      ],
+      "entry": [
+        40,
+        64
+      ],
+      "teacher": "陆问符",
+      "teacherPosition": [
+        40,
+        22
+      ],
+      "mechanic": "conditional_contract",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_jishi",
+      "name": "济世院",
+      "nodeId": "XS",
+      "facility": "行旅救援站",
+      "anchor": [
+        0.45,
+        0.82
+      ],
+      "sceneSize": [
+        96,
+        64
+      ],
+      "entry": [
+        48,
+        58
+      ],
+      "teacher": "陈济安",
+      "teacherPosition": [
+        64,
+        18
+      ],
+      "mechanic": "triage_budget",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    },
+    {
+      "id": "sect_zhaodeng",
+      "name": "照灯坊",
+      "nodeId": "YD",
+      "facility": "灯舟坊",
+      "anchor": [
+        0.8,
+        0.52
+      ],
+      "sceneSize": [
+        96,
+        72
+      ],
+      "entry": [
+        12,
+        48
+      ],
+      "teacher": "温照微",
+      "teacherPosition": [
+        64,
+        24
+      ],
+      "mechanic": "bounded_snapshot",
+      "activeTracks": 5,
+      "specializationTracks": 1
+    }
+  ],
+  "conditions": {
+    "sluice_restored": "修复双河闸门",
+    "old_channel_open": "完成旧航道测绘并永久开启低水位航道",
+    "archive_access": "完成夜渡证词委托",
+    "trade_route_open": "完成首趟商船护运",
+    "survey_permit": "取得考古许可",
+    "mine_open": "修复矿洞支架",
+    "storm_beacon": "建立抗雷信标",
+    "canopy_lift": "修复古木索道",
+    "wind_cable": "完成风缆试验",
+    "deep_dive": "取得深潜设备并完成救援演练",
+    "final_access": "三个地区地契分别作出一种决议，且完成归墟或回烛任一远征",
+    "mountain_pass": "组织行会修路",
+    "cooled_rail": "完成地热导流工程"
+  }
+}

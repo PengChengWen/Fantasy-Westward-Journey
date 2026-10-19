@@ -74,9 +74,9 @@ $null = $table.AppendLine('| 范围 | 升级次数／条数口径 | 所需经验
 $null = $table.AppendLine('| --- | --- | --- | --- |')
 $null = $table.AppendLine("| 单条 0→180 | 180 次 | $(Format-Amount $cumulativeExperience) | $(Format-Amount $cumulativeCoins) |")
 $null = $table.AppendLine("| 单条 1→180 | 179 次，第一点已经支付 | $(Format-Amount ($cumulativeExperience-$rows[0].experience)) | $(Format-Amount ($cumulativeCoins-$rows[0].coins)) |")
-$null = $table.AppendLine("| 一个角色七条全满 | 7 条，各 0→180 | $(Format-Amount ($cumulativeExperience*7)) | $(Format-Amount ($cumulativeCoins*7)) |")
-$null = $table.AppendLine("| 五名角色七条全满 | 35 条，各 0→180 | $(Format-Amount ($cumulativeExperience*35)) | $(Format-Amount ($cumulativeCoins*35)) |")
-$null = $table.AppendLine("| 七派各培养一个角色并全满 | 49 条，各 0→180；不是一个角色同时修七派 | $(Format-Amount ($cumulativeExperience*49)) | $(Format-Amount ($cumulativeCoins*49)) |")
+$null = $table.AppendLine("| 一个角色六轨全满 | 6 条，各 0→180 | $(Format-Amount ($cumulativeExperience*6)) | $(Format-Amount ($cumulativeCoins*6)) |")
+$null = $table.AppendLine("| 五名角色六轨全满 | 30 条，各 0→180 | $(Format-Amount ($cumulativeExperience*30)) | $(Format-Amount ($cumulativeCoins*30)) |")
+$null = $table.AppendLine("| 七派各培养一个角色并全满 | 42 条，各 0→180；不是一个角色同时修七派 | $(Format-Amount ($cumulativeExperience*42)) | $(Format-Amount ($cumulativeCoins*42)) |")
 
 $null = $table.AppendLine()
 $null = $table.AppendLine('### 12.4 完整逐级费用表')
@@ -97,10 +97,10 @@ if ([regex]::Matches($document, $pattern).Count -ne 1) { throw '门派文档中�
 $replacement = $startMarker + "`n" + $table.ToString().Replace("`r`n", "`n").TrimEnd() + "`n" + $endMarker
 $expectedDocument = [regex]::Replace($document, $pattern, [System.Text.RegularExpressions.MatchEvaluator]{ param($match) $replacement })
 $data = [ordered]@{
-    schemaVersion = 1
+    schemaVersion = 2
     curveId = 'sect_cultivation_v1'
     maxLevel = 180
-    tracksPerCharacter = 7
+    tracksPerCharacter = 6
     fullPartyCharacters = 5
     experienceCurrency = 'training_exp'
     moneyCurrency = 'coin'
@@ -112,10 +112,10 @@ $data = [ordered]@{
     totals = [ordered]@{
         oneTrackExperience = $cumulativeExperience
         oneTrackCoins = $cumulativeCoins
-        oneCharacterExperience = $cumulativeExperience*7
-        oneCharacterCoins = $cumulativeCoins*7
-        fiveCharactersExperience = $cumulativeExperience*35
-        fiveCharactersCoins = $cumulativeCoins*35
+        oneCharacterExperience = $cumulativeExperience*6
+        oneCharacterCoins = $cumulativeCoins*6
+        fiveCharactersExperience = $cumulativeExperience*30
+        fiveCharactersCoins = $cumulativeCoins*30
     }
     levels = @($rows.ToArray())
 }

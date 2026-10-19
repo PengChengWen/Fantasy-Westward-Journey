@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "curveId": "sect_cultivation_v1",
   "maxLevel": 180,
-  "tracksPerCharacter": 7,
+  "tracksPerCharacter": 6,
   "fullPartyCharacters": 5,
   "experienceCurrency": "training_exp",
   "moneyCurrency": "coin",
@@ -14,10 +14,10 @@
   "totals": {
     "oneTrackExperience": 6755810,
     "oneTrackCoins": 2365360,
-    "oneCharacterExperience": 47290670,
-    "oneCharacterCoins": 16557520,
-    "fiveCharactersExperience": 236453350,
-    "fiveCharactersCoins": 82787600
+    "oneCharacterExperience": 40534860,
+    "oneCharacterCoins": 14192160,
+    "fiveCharactersExperience": 202674300,
+    "fiveCharactersCoins": 70960800
   },
   "levels": [
     {

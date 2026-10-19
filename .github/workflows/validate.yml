@@ -19,6 +19,9 @@ jobs:
       - name: Check cultivation cost tables
         shell: pwsh
         run: ./scripts/生成门派技能升级表.ps1 -Check
+      - name: Check design consistency
+        shell: pwsh
+        run: ./scripts/检查设计一致性.ps1
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: |
